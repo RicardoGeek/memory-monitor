@@ -8,10 +8,21 @@ Consists of three parts.
 ## compiling
 Install 
 
+``sudo apt-get install build-essentials``
+
 ``sudo apt-get install libprocps-dev``
 
-To compile and install the kernel module simply run ``./build.sh``
+To compile and install the kernel modules simply run ``./build.sh``
 
 ## Go APP
 Create a systemd process to run the go app pertpetually in the server
+
+To run the app just do:
+
+``go run main.go``
+
+and visit:
+http://localhost:10000/ui/
+
+For the UI
 
