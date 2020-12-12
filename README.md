@@ -6,6 +6,10 @@ Consists of three parts.
     - UI to present the results.
 
 ## compiling
+Install 
+
+``sudo apt-get install libprocps-dev``
+
 To compile and install the kernel module simply run ``./build.sh``
 
 ## Go APP

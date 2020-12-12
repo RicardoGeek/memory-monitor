@@ -58,9 +58,73 @@
                     </div>
                     <div class="tab-pane fade" id="v-pills-proc-stats" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                         <h2>Process Stats</h2>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Estado</th>
+                                    <th>Conteo</th>
+                                </tr>
+                            </thead>
+                            <tbody id="pstable">
+                                <tr>
+                                    <td>Running</td>
+                                    <td id="pRunning"></td>
+                                </tr>
+                                <tr>
+                                    <td>Interrumpible</td>
+                                    <td id="pInterrumpible"></td>
+                                </tr>
+                                <tr>
+                                    <td>Uninterrumpible</td>
+                                    <td id="pUninterrumpible"></td>
+                                </tr>
+                                <tr>
+                                    <td>Stopped</td>
+                                    <td id="pStopped"></td>
+                                </tr>
+                                <tr>
+                                    <td>Traced</td>
+                                    <td id="pTraced"></td>
+                                </tr>
+                                <tr>
+                                    <td>Zombie</td>
+                                    <td id="pZombie"></td>
+                                </tr>
+                                <tr>
+                                    <td>Dead</td>
+                                    <td id="pDead"></td>
+                                </tr>
+                                <tr>
+                                    <td>Noninteractive</td>
+                                    <td id="pNoninteractive"></td>
+                                </tr>
+                                <tr>
+                                    <td>Unkown</td>
+                                    <td id="pUnknown"></td>
+                                </tr>
+                                <tr>
+                                    <td>Total</td>
+                                    <td id="pTotal"></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                     <div class="tab-pane fade" id="v-pills-proc-table" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                         <h2>Process Table</h2>
+                        
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>PID</th>
+                                    <th>Nombre</th>
+                                    <th>Estado</th>
+                                    <th>%CPU</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ptable">
+
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
