@@ -26,3 +26,7 @@ http://localhost:10000/ui/
 
 For the UI
 
+# AUTHOR
+Ricardo Fernandez
+200611606
+
